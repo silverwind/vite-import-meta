@@ -1,0 +1,12 @@
+{
+  "name": "app",
+  "type": "module",
+  "dependencies": {
+    "lib": "file:lib",
+    "vite": "5.4.0"
+  },
+  "scripts": {
+    "lib": "cd lib && npx vite build",
+    "build": "npx vite build"
+  }
+}
